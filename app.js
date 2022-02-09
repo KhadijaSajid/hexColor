@@ -1,8 +1,9 @@
 var body = document.querySelector("body")
+// backgroud color as white
 body.style.backgroundColor = "#fff"
 
-function changeColor(){
 
+function changeColor(){
     var colorBG = "#"
     var possible = "ABCDEF0123456789";
     for (var i = 0; i < 6; i++){
@@ -12,8 +13,5 @@ function changeColor(){
     p.innerText = "HEX COLOR: " + colorBG
 
     body.style.backgroundColor = colorBG
-
-
-
 
 }
